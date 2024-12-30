@@ -1,0 +1,12 @@
+.accordion_list {
+	display: block;
+}
+.accordion_item {
+	display: block;
+}
+.accordion_content {
+	display: none;
+}
+.accordion_content.is_open {
+	display: block;
+}

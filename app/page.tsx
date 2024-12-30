@@ -14,10 +14,10 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
+          <li><a href="/show-time">時間のフォーマット表示</a></li>
+          <li><a href="/timer-switching">時間によって表示を切り替える</a></li>
+          <li><a href="/accordion-block">アコーディオン（ブロック）</a></li>
+          <li><a href="/accordion-list">アコーディオン（リスト）</a></li>
         </ol>
 
         <div className={styles.ctas}>

@@ -1,0 +1,12 @@
+.accordion {
+	text-align: left;
+	width: 240px;
+	min-height: 200px;
+	margin-top: 20px;
+}
+.accordion_content {
+	display: none;
+}
+.accordion_content.is_open {
+	display: block;
+}
